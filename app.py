@@ -503,7 +503,7 @@ with hero_image:
                 text-align:center;
                 padding:30px;
             ">
-                Add assets/beauty-hero.jpg
+                Add assets/beauty-hero.jpeg
             </div>
             """,
             unsafe_allow_html=True,
@@ -1179,3 +1179,17 @@ st.caption(
     Streamlit
     """
 )
+
+from pathlib import Path
+
+ASSET_DIR = Path(__file__).parent / "assets"
+HERO_PATH = ASSET_DIR / "beauty-hero.jpeg"
+
+st.write("Looking for:", HERO_PATH)
+st.write("Exists:", HERO_PATH.exists())
+
+if HERO_PATH.exists():
+    st.image(str(HERO_PATH), use_container_width=True)
+else:
+    st.error("Hero image not found.")
+    
