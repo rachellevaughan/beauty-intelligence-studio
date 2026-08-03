@@ -448,7 +448,7 @@ st.sidebar.markdown(
     """
     **Leadership question**
 
-    Which commercial investments create profitable, incremental and
+    Which commercial and loyalty investments create profitable, incremental, and
     sustainable growth?
     """
 )
@@ -512,9 +512,7 @@ with hero_image:
 st.markdown(
     """
     <div class="disclaimer">
-        Independent portfolio demonstration using synthetic beauty-retail
-        data. This project is not affiliated with, endorsed by or
-        commissioned by Sephora.
+        Disclaimer: Independent portfolio project created using synthetic beauty retail data. This application is not affiliated with, endorsed by, sponsored by, or commissioned by Sephora, Sephora Canada, LVMH Moët Hennessy Louis Vuitton, or any of their affiliates.
     </div>
     """,
     unsafe_allow_html=True,
@@ -651,21 +649,23 @@ with tab1:
         )
 
     st.markdown(
-        f"""
-        <div class="insight-panel">
-            <div class="insight-title">Executive insight</div>
-            <div class="insight-copy">
-                Promotional sales alone overstate commercial impact.
-                {best_operating_campaign["Campaign"]} generates the strongest
-                operating-profit contribution despite not having the largest
-                reported sales base. Future investment should prioritize
-                incrementality, product margin, repeat behaviour and final
-                P&L contribution.
-            </div>
+    f"""
+    <div class="insight-panel">
+        <div class="insight-title">Executive Insight</div>
+        <div class="insight-copy">
+            Promotional sales alone do not measure commercial success. 
+            <strong>{best_operating_campaign["Campaign"]}</strong> delivers the highest
+            estimated operating-profit contribution despite not generating the greatest
+            promotional sales. This highlights the importance of evaluating promotional
+            performance through incrementality, product margin, customer retention,
+            and end-to-end P&L impact. Future investment should prioritize campaigns
+            that create sustainable, profitable growth rather than short-term revenue
+            spikes or purchase pull-forward.
         </div>
-        """,
-        unsafe_allow_html=True,
-    )
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
 
 
 # ==================================================
@@ -909,22 +909,17 @@ with tab3:
         hide_index=True,
     )
 
-    st.markdown(
-        """
-        <div class="insight-panel">
-            <div class="insight-title">Cross-functional interpretation</div>
-            <div class="insight-copy">
-                Marketing shapes campaign investment and response.
-                Merchandising shapes product mix and gross margin.
-                Retail and Ecommerce influence fulfillment and selling costs.
-                Loyalty shapes repeat behaviour and long-term client value.
-                Finance evaluates whether the combined impact produces
-                operating-profit growth.
-            </div>
+st.markdown(
+    """
+    <div class="insight-panel">
+        <div class="insight-title">Cross-Functional Business Insight</div>
+        <div class="insight-copy">
+            The analysis demonstrates that commercial success is the result of interconnected business decisions rather than marketing performance alone. While Marketing drives promotional demand, Merchandising influences profitability through product mix and gross margin, Retail and Ecommerce shape fulfillment economics, and Loyalty determines whether newly acquired customers generate lasting value. When these factors are evaluated together, Finance can distinguish campaigns that simply increase sales from those that create sustainable operating-profit growth.
         </div>
-        """,
-        unsafe_allow_html=True,
-    )
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
 
 
 # ==================================================
@@ -1088,22 +1083,26 @@ with tab5:
     )
     st.header("Executive Recommendations")
 
-    st.markdown(
-        f"""
-        <div class="insight-panel">
-            <div class="insight-title">Priority recommendation</div>
-            <div class="insight-copy">
-                Scale <strong>{best_operating_campaign["Campaign"]}</strong>
-                through a measured test-and-learn plan. It delivers the
-                strongest estimated operating-profit contribution at
-                <strong>${best_operating_campaign["Operating Profit Impact"]:,.0f}</strong>.
-            </div>
+st.markdown(
+    f"""
+    <div class="insight-panel">
+        <div class="insight-title">Priority Recommendation</div>
+        <div class="insight-copy">
+            The analysis indicates that <strong>{best_operating_campaign["Campaign"]}</strong>
+            is the strongest candidate for future investment. Despite not generating the
+            highest promotional sales, it produces the greatest estimated operating-profit
+            contribution of <strong>${best_operating_campaign["Operating Profit Impact"]:,.0f}</strong>,
+            demonstrating that its commercial success is driven by profitable customer demand
+            rather than promotional volume alone. Expanding this campaign through a structured
+            test-and-learn framework will help validate scalability, optimize resource
+            allocation, and support sustainable long-term growth.
         </div>
-        """,
-        unsafe_allow_html=True,
-    )
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
 
-    recommendation_table = pd.DataFrame(
+recommendation_table = pd.DataFrame(
         {
             "Priority": [
                 "Scale",
@@ -1132,13 +1131,13 @@ with tab5:
         }
     )
 
-    st.dataframe(
+st.dataframe(
         recommendation_table,
         use_container_width=True,
         hide_index=True,
     )
 
-    with st.expander("Methodology and limitations"):
+with st.expander("Methodology and limitations"):
         st.markdown(
             """
             **Simplified P&L**
