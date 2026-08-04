@@ -441,7 +441,7 @@ st.sidebar.markdown(
     """
     ### Executive Business Question
 
-    **How should a beauty retailer allocate promotional investment to
+    **How should promotional investment be allocated to
     maximize incremental revenue, customer loyalty, and sustainable
     operating profit?**
     """
@@ -601,7 +601,6 @@ with tab1:
         <div class="insight-panel">
             <div class="insight-title">Executive Insight</div>
             <div class="insight-copy">
-                Promotional sales alone do not measure commercial success.
                 <strong>{best_operating_campaign['Campaign']}</strong>
                 delivers the highest estimated operating-profit contribution
                 despite not generating the greatest promotional sales.
@@ -1001,18 +1000,10 @@ with tab3:
                 Cross-Functional Business Insight
             </div>
             <div class="insight-copy">
-                The strongest-performing campaigns are not necessarily those
-                generating the highest promotional sales, but those creating
-                the greatest operating-profit contribution after accounting
-                for incrementality, product margins, fulfillment costs,
-                customer behaviour, and campaign investment. Marketing shapes
-                demand and acquisition economics; Merchandising converts that
-                demand into gross profit through product mix and margin; Retail
-                and Ecommerce determine the cost of fulfilling each sale; and
-                Loyalty reveals whether the relationship continues through
-                repeat purchasing. Finance brings these drivers together to
-                distinguish temporary volume from profitable, sustainable
-                growth.
+                Cross-Functional Business Insight
+
+                The data demonstrates that promotional sales alone overstate commercial success. Once incrementality, gross margins, fulfillment costs, customer retention, and campaign investment are incorporated, operating-profit contribution becomes the more meaningful measure of performance. Marketing creates demand, Merchandising determines the profitability of that demand through product mix and margins, Retail and Ecommerce influence delivery economics, and Loyalty indicates whether campaigns generate lasting customer value through repeat purchasing. By integrating these drivers into a single financial view, Finance identifies which campaigns create sustainable profit rather than temporary revenue growth, enabling more disciplined investment decisions across the business.
+
             </div>
         </div>
         """,
