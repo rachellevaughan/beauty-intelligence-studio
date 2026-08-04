@@ -999,14 +999,29 @@ with tab3:
             <div class="insight-title">
                 Cross-Functional Business Insight
             </div>
-            
-            The data demonstrates that promotional sales alone overstate commercial success. Once incrementality, gross margins, fulfillment costs, customer retention, and campaign 
-            investment are incorporated, operating-profit contribution becomes the more meaningful measure of performance. Marketing creates demand, Merchandising determines 
-            the profitability of that demand through product mix and margins, Retail and Ecommerce influence delivery economics, and Loyalty indicates whether campaigns generate 
-            lasting customer value through repeat purchasing. By integrating these drivers into a single financial view, Finance identifies which campaigns create sustainable profit 
-            rather than temporary revenue growth, enabling more disciplined investment decisions across the business.
 
-               
+            <div class="insight-copy">
+                The data demonstrates that promotional sales alone overstate
+                commercial success. Once incrementality, gross margins,
+                fulfillment costs, customer retention, and campaign investment
+                are incorporated, operating-profit contribution becomes the
+                more meaningful measure of performance.
+
+                <br><br>
+
+                Marketing creates demand, Merchandising determines the
+                profitability of that demand through product mix and margins,
+                Retail and Ecommerce influence delivery economics, and Loyalty
+                indicates whether campaigns generate lasting customer value
+                through repeat purchasing.
+
+                <br><br>
+
+                By integrating these drivers into a single financial view,
+                Finance identifies which campaigns create sustainable profit
+                rather than temporary revenue growth, enabling more disciplined
+                investment decisions across the business.
+            </div>
         </div>
         """,
         unsafe_allow_html=True,
