@@ -202,7 +202,16 @@ st.markdown(
 
         .insight-copy {
             color: #343434;
-            line-height: 1.6;
+            line-height: 1.65;
+            font-size: 0.98rem;
+        }
+
+        .insight-copy p {
+            margin: 0 0 14px 0;
+        }
+
+        .insight-copy p:last-child {
+            margin-bottom: 0;
         }
 
         .formula-panel {
@@ -999,28 +1008,24 @@ with tab3:
             <div class="insight-title">
                 Cross-Functional Business Insight
             </div>
-
             <div class="insight-copy">
-                The data demonstrates that promotional sales alone overstate
-                commercial success. Once incrementality, gross margins,
-                fulfillment costs, customer retention, and campaign investment
-                are incorporated, operating-profit contribution becomes the
-                more meaningful measure of performance.
-
-                <br><br>
-
-                Marketing creates demand, Merchandising determines the
-                profitability of that demand through product mix and margins,
-                Retail and Ecommerce influence delivery economics, and Loyalty
-                indicates whether campaigns generate lasting customer value
-                through repeat purchasing.
-
-                <br><br>
-
-                By integrating these drivers into a single financial view,
-                Finance identifies which campaigns create sustainable profit
-                rather than temporary revenue growth, enabling more disciplined
-                investment decisions across the business.
+                <p>
+                    The data demonstrates that promotional sales alone overstate commercial success.
+                    Once incrementality, gross margins, fulfillment costs, customer retention, and
+                    campaign investment are incorporated, operating-profit contribution becomes the
+                    more meaningful measure of performance.
+                </p>
+                <p>
+                    Marketing creates demand, Merchandising determines the profitability of that
+                    demand through product mix and margins, Retail and Ecommerce influence delivery
+                    economics, and Loyalty indicates whether campaigns generate lasting customer
+                    value through repeat purchasing.
+                </p>
+                <p>
+                    By integrating these drivers into a single financial view, Finance identifies
+                    which campaigns create sustainable profit rather than temporary revenue growth,
+                    enabling more disciplined investment decisions across the business.
+                </p>
             </div>
         </div>
         """,
