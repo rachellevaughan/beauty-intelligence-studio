@@ -1001,10 +1001,24 @@ with tab3:
             </div>
             <div class="insight-copy">
                 Cross-Functional Business Insight
+             <p>
+                The data demonstrates that <strong>promotional sales alone overstate commercial success.</strong>
+                Once incrementality, gross margins, fulfillment costs, customer retention, and campaign investment
+                are incorporated, <strong>operating-profit contribution</strong> becomes the more meaningful
+                measure of performance.
+            </p>
 
-                The data demonstrates that promotional sales alone overstate commercial success. Once incrementality, gross margins, fulfillment costs, customer retention, and campaign investment are incorporated, operating-profit contribution becomes the more meaningful measure of performance. Marketing creates demand, Merchandising determines the profitability of that demand through product mix and margins, Retail and Ecommerce influence delivery economics, and Loyalty indicates whether campaigns generate lasting customer value through repeat purchasing. By integrating these drivers into a single financial view, Finance identifies which campaigns create sustainable profit rather than temporary revenue growth, enabling more disciplined investment decisions across the business.
+            <p>
+                Marketing creates demand, Merchandising determines the profitability of that demand through
+                product mix and margins, Retail and Ecommerce influence delivery economics, and Loyalty
+                indicates whether campaigns generate lasting customer value through repeat purchasing.
+            </p>
 
-            </div>
+            <p>
+                By integrating these drivers into a single financial view,
+                <strong>Finance identifies which campaigns create sustainable profit rather than temporary revenue growth</strong>,
+                enabling more disciplined investment decisions across the business.
+            </p>
         </div>
         """,
         unsafe_allow_html=True,
