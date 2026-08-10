@@ -1,3 +1,23 @@
+Beauty Intelligence Studio
+
+Executive Analytics Platform for Retail, Marketing and Commercial Finance
+
+Built with Python • Streamlit • Plotly • Pandas
+
+------------------------------------------------
+
+🚀 Live Demo
+
+https://beauty-intelligence-studio.streamlit.app
+
+💻 GitHub Repository
+
+https://github.com/rachellevaughan/beauty-intelligence-studio
+
+------------------------------------------------
+
+Overview
+
 # Beauty Intelligence Studio
 
 ## Executive Promotion Analytics & P&L Decision Support
