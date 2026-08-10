@@ -15,6 +15,15 @@ https://beauty-intelligence-studio.streamlit.app
 https://github.com/rachellevaughan/beauty-intelligence-studio
 
 ------------------------------------------------
+### Recommended Experience
+
+For the best experience:
+
+- Use Google Chrome, Microsoft Edge, or Safari
+- View on a desktop or laptop
+- Full-screen the browser window for optimal dashboard visibility
+
+---
 
 ## What You'll Experience
 
@@ -30,16 +39,6 @@ The live demonstration includes:
 - 📉 Campaign Incrementality
 - 🔄 Scenario Planning
 - 💼 Executive Recommendation Engine
-
----
-
-### Recommended Experience
-
-For the best experience:
-
-- Use Google Chrome, Microsoft Edge, or Safari
-- View on a desktop or laptop
-- Full-screen the browser window for optimal dashboard visibility
 
 ---
 
