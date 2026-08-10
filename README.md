@@ -6,7 +6,7 @@ Built with Python • Streamlit • Plotly • Pandas
 
 ------------------------------------------------
 
-🚀 Live Demo
+🚀 Live Demo - Experience the application in your browser:
 
 https://beauty-intelligence-studio.streamlit.app
 
@@ -15,6 +15,33 @@ https://beauty-intelligence-studio.streamlit.app
 https://github.com/rachellevaughan/beauty-intelligence-studio
 
 ------------------------------------------------
+
+## What You'll Experience
+
+The live demonstration includes:
+
+- 📊 Executive KPI Dashboard
+- 💄 Promotional Investment Simulator
+- 📈 Operating Profit Analysis
+- 👥 Customer Loyalty & Retention Analytics
+- 🛍️ Merchandising Performance
+- 📦 Product Mix Optimization
+- 🎯 Marketing ROI Analysis
+- 📉 Campaign Incrementality
+- 🔄 Scenario Planning
+- 💼 Executive Recommendation Engine
+
+---
+
+### Recommended Experience
+
+For the best experience:
+
+- Use Google Chrome, Microsoft Edge, or Safari
+- View on a desktop or laptop
+- Full-screen the browser window for optimal dashboard visibility
+
+---
 
 ## Executive Promotion Analytics & P&L Decision Support
 
