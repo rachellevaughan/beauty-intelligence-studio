@@ -1,6 +1,6 @@
-Beauty Intelligence Studio
+# Beauty Intelligence Studio
 
-Executive Analytics Platform for Retail, Marketing and Commercial Finance
+Executive Analytics Platform for Retail, Marketing, and Commercial Finance
 
 Built with Python • Streamlit • Plotly • Pandas
 
@@ -16,15 +16,11 @@ https://github.com/rachellevaughan/beauty-intelligence-studio
 
 ------------------------------------------------
 
-Overview
-
-# Beauty Intelligence Studio
-
 ## Executive Promotion Analytics & P&L Decision Support
 
 **Beauty Intelligence Studio** is an executive analytics dashboard built in **Python** and **Streamlit** to demonstrate how business intelligence, financial analysis, and customer analytics can support strategic decision-making in the beauty retail industry.
 
-This project was created as a portfolio demonstration using **synthetic (fictional) data** to showcase analytics capabilities relevant to senior analytics leadership roles.
+This project was created as a portfolio demonstration using **synthetic (fictional) data** to showcase analytics capabilities relevant to senior analytics leadership decisions.
 
 ---
 
