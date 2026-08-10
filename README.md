@@ -40,7 +40,10 @@ The live demonstration includes:
 - 🔄 Scenario Planning
 - 💼 Executive Recommendation Engine
 
+## 📷 Project Preview
 ---
+<img width="1680" height="929" alt="Screenshot 2026-08-09 at 11 16 32 PM" src="https://github.com/user-attachments/assets/13d2257d-83a7-4392-86ee-743b44de2a35" />
+<img width="1680" height="930" alt="Screenshot 2026-08-09 at 11 17 18 PM" src="https://github.com/user-attachments/assets/91468073-80c6-4a90-b4d7-d96b66dc0879" />
 
 ## Executive Promotion Analytics & P&L Decision Support
 
