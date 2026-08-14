@@ -43,8 +43,10 @@ st.markdown(
 
         .block-container {
             max-width: 1450px;
-            padding-top: 1.5rem;
+            padding-top: 1.8rem;
             padding-bottom: 4rem;
+            padding-left: 2.4rem;
+            padding-right: 2.4rem;
         }
 
         #MainMenu {
@@ -65,29 +67,42 @@ st.markdown(
         }
 
         h1 {
-            font-size: 2.8rem !important;
-            font-weight: 750 !important;
+            font-size: 3.0rem !important;
+            font-weight: 800 !important;
+            line-height: 1.08 !important;
         }
 
         h2 {
-            font-size: 1.8rem !important;
-            font-weight: 700 !important;
+            font-size: 2.0rem !important;
+            font-weight: 800 !important;
+            line-height: 1.15 !important;
         }
 
         h3 {
-            font-size: 1.15rem !important;
-            font-weight: 700 !important;
+            font-size: 1.35rem !important;
+            font-weight: 750 !important;
+            line-height: 1.25 !important;
         }
 
         p, li, label {
             color: #343434;
         }
 
+        .stMarkdown p {
+            font-size: 1.05rem !important;
+            line-height: 1.65 !important;
+        }
+
+        [data-testid="stCaptionContainer"] p {
+            font-size: 0.92rem !important;
+            line-height: 1.5 !important;
+        }
+
         .hero-shell {
             background-color: #000000;
             border-radius: 4px;
-            padding: 42px 48px;
-            min-height: 260px;
+            padding: 46px 52px;
+            min-height: 280px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -95,8 +110,8 @@ st.markdown(
 
         .eyebrow {
             color: #D8B7C2;
-            font-size: 0.78rem;
-            font-weight: 700;
+            font-size: 0.90rem;
+            font-weight: 750;
             letter-spacing: 0.18em;
             text-transform: uppercase;
             margin-bottom: 12px;
@@ -104,110 +119,123 @@ st.markdown(
 
         .hero-title {
             color: #FFFFFF;
-            font-size: 3.2rem;
+            font-size: 3.45rem;
             line-height: 1.02;
-            font-weight: 760;
+            font-weight: 800;
             letter-spacing: -0.045em;
-            margin-bottom: 14px;
+            margin-bottom: 16px;
         }
 
         .hero-subtitle {
             color: #D9D9D9;
-            max-width: 760px;
-            font-size: 1.08rem;
-            line-height: 1.55;
+            max-width: 780px;
+            font-size: 1.18rem;
+            line-height: 1.6;
         }
 
         .disclaimer {
             background-color: #FFFFFF;
             border-left: 4px solid #D8B7C2;
-            padding: 12px 16px;
-            margin: 14px 0 24px 0;
-            font-size: 0.82rem;
+            padding: 14px 18px;
+            margin: 16px 0 26px 0;
+            font-size: 0.94rem;
+            line-height: 1.55;
             color: #555555;
         }
 
         .section-label {
             color: #8A6673;
-            font-size: 0.76rem;
-            font-weight: 750;
+            font-size: 0.86rem;
+            font-weight: 800;
             letter-spacing: 0.15em;
             text-transform: uppercase;
-            margin-bottom: 2px;
+            margin-bottom: 4px;
         }
 
         div[data-testid="stMetric"] {
             background-color: #FFFFFF;
             border: 1px solid #E8E5E3;
-            border-radius: 3px;
-            padding: 20px 18px;
-            min-height: 125px;
+            border-radius: 4px;
+            padding: 22px 20px;
+            min-height: 138px;
             box-shadow: 0 3px 14px rgba(0, 0, 0, 0.035);
         }
 
         div[data-testid="stMetricLabel"] {
             color: #666666;
-            font-size: 0.78rem;
+            font-size: 0.90rem;
             letter-spacing: 0.045em;
             text-transform: uppercase;
         }
 
+        div[data-testid="stMetricLabel"] p {
+            font-size: 0.90rem !important;
+            font-weight: 700 !important;
+        }
+
         div[data-testid="stMetricValue"] {
             color: #111111;
-            font-weight: 750;
+            font-weight: 800;
+            font-size: 2.0rem !important;
+        }
+
+        div[data-testid="stMetricDelta"] {
+            font-size: 0.90rem !important;
         }
 
         .decision-card {
             background-color: #FFFFFF;
             border: 1px solid #E8E5E3;
             border-top: 4px solid #111111;
-            padding: 22px;
-            min-height: 240px;
+            padding: 24px;
+            min-height: 260px;
             box-shadow: 0 3px 14px rgba(0, 0, 0, 0.035);
         }
 
         .decision-number {
             color: #A27C89;
-            font-weight: 750;
-            font-size: 0.78rem;
+            font-weight: 800;
+            font-size: 0.88rem;
             letter-spacing: 0.12em;
             text-transform: uppercase;
         }
 
         .decision-title {
             color: #111111;
-            font-size: 1.25rem;
-            font-weight: 750;
-            margin: 8px 0;
+            font-size: 1.42rem;
+            font-weight: 800;
+            margin: 10px 0;
+            line-height: 1.25;
         }
 
         .decision-detail {
             color: #555555;
-            line-height: 1.55;
-            font-size: 0.93rem;
+            line-height: 1.65;
+            font-size: 1.02rem;
         }
 
         .insight-panel {
             background-color: #F0E4E8;
             border: 1px solid #E0CDD4;
-            padding: 22px 24px;
-            margin: 18px 0;
+            padding: 26px 28px;
+            margin: 20px 0;
         }
 
         .insight-title {
             color: #111111;
-            font-weight: 750;
-            margin-bottom: 8px;
+            font-weight: 800;
+            font-size: 1.12rem;
+            margin-bottom: 10px;
         }
 
         .insight-copy {
             color: #343434;
-            line-height: 1.65;
-            font-size: 0.98rem;
+            line-height: 1.68;
+            font-size: 1.04rem;
         }
 
         .insight-copy p {
-            margin: 0 0 14px 0;
+            margin: 0 0 16px 0;
         }
 
         .insight-copy p:last-child {
@@ -217,19 +245,27 @@ st.markdown(
         .formula-panel {
             background-color: #FFFFFF;
             border: 1px solid #E8E5E3;
-            padding: 18px 22px;
-            margin: 12px 0 22px 0;
-            line-height: 1.8;
+            padding: 22px 26px;
+            margin: 14px 0 24px 0;
+            line-height: 1.9;
+            font-size: 1.02rem;
         }
 
         div[data-testid="stDataFrame"] {
             background-color: #FFFFFF;
             border: 1px solid #E8E5E3;
+            font-size: 0.95rem !important;
         }
 
         button[data-baseweb="tab"] {
-            font-weight: 650;
+            font-weight: 700;
             color: #555555;
+            padding-left: 16px !important;
+            padding-right: 16px !important;
+        }
+
+        button[data-baseweb="tab"] p {
+            font-size: 1.0rem !important;
         }
 
         button[data-baseweb="tab"][aria-selected="true"] {
@@ -242,6 +278,8 @@ st.markdown(
 
         section[data-testid="stSidebar"] {
             background-color: #111111;
+            min-width: 310px !important;
+            width: 310px !important;
         }
 
         section[data-testid="stSidebar"] * {
@@ -252,13 +290,61 @@ st.markdown(
             border-color: #3A3A3A;
         }
 
+        section[data-testid="stSidebar"] p {
+            font-size: 1.0rem !important;
+            line-height: 1.6 !important;
+        }
+
+        section[data-testid="stSidebar"] h3 {
+            font-size: 1.2rem !important;
+            font-weight: 800 !important;
+        }
+
+        section[data-testid="stSidebar"] label p,
+        section[data-testid="stSidebar"] [data-testid="stWidgetLabel"] p {
+            font-size: 0.98rem !important;
+            font-weight: 650 !important;
+        }
+
+        section[data-testid="stSidebar"] [data-baseweb="select"] *,
+        section[data-testid="stSidebar"] [data-baseweb="tag"] {
+            font-size: 0.92rem !important;
+        }
+
+        [data-testid="stExpander"] summary p {
+            font-size: 0.98rem !important;
+            font-weight: 700 !important;
+        }
+
+        [data-testid="stExpander"] p,
+        [data-testid="stExpander"] li {
+            font-size: 1.0rem !important;
+            line-height: 1.65 !important;
+        }
+
+        .stButton button,
+        .stDownloadButton button {
+            font-size: 1rem !important;
+            min-height: 46px !important;
+            font-weight: 700 !important;
+        }
+
         @media (max-width: 800px) {
             .hero-shell {
-                padding: 30px 24px;
+                padding: 32px 26px;
             }
 
             .hero-title {
-                font-size: 2.3rem;
+                font-size: 2.5rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1.05rem;
+            }
+
+            section[data-testid="stSidebar"] {
+                min-width: auto !important;
+                width: auto !important;
             }
         }
     </style>
