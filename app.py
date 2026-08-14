@@ -347,6 +347,111 @@ st.markdown(
                 width: auto !important;
             }
         }
+
+        /* FINAL READABILITY BOOST */
+        .stMarkdown p, .stMarkdown li {
+            font-size: 1.10rem !important;
+            line-height: 1.68 !important;
+        }
+
+        button[data-baseweb="tab"] {
+            min-height: 52px !important;
+            padding: 12px 20px !important;
+        }
+
+        button[data-baseweb="tab"] p,
+        button[data-baseweb="tab"] div {
+            font-size: 1.08rem !important;
+            font-weight: 700 !important;
+            line-height: 1.25 !important;
+        }
+
+        h2 { font-size: 2.15rem !important; }
+        h3 { font-size: 1.50rem !important; }
+
+        .section-label { font-size: 0.92rem !important; }
+
+        .disclaimer {
+            font-size: 1.00rem !important;
+            line-height: 1.62 !important;
+        }
+
+        .insight-title { font-size: 1.22rem !important; }
+
+        .insight-copy {
+            font-size: 1.10rem !important;
+            line-height: 1.72 !important;
+        }
+
+        .decision-number { font-size: 0.92rem !important; }
+        .decision-title { font-size: 1.48rem !important; }
+
+        .decision-detail {
+            font-size: 1.08rem !important;
+            line-height: 1.68 !important;
+        }
+
+        div[data-testid="stMetricLabel"] p {
+            font-size: 0.98rem !important;
+        }
+
+        div[data-testid="stMetricValue"] {
+            font-size: 2.12rem !important;
+        }
+
+        div[data-testid="stMetricDelta"] {
+            font-size: 0.95rem !important;
+        }
+
+        div[data-testid="stDataFrame"] {
+            font-size: 1rem !important;
+        }
+
+        [data-testid="stWidgetLabel"] p {
+            font-size: 1.02rem !important;
+            font-weight: 650 !important;
+        }
+
+        [data-testid="stExpander"] summary p {
+            font-size: 1.04rem !important;
+            font-weight: 700 !important;
+        }
+
+        [data-testid="stExpander"] p,
+        [data-testid="stExpander"] li {
+            font-size: 1.04rem !important;
+            line-height: 1.68 !important;
+        }
+
+        section[data-testid="stSidebar"] p {
+            font-size: 1.04rem !important;
+            line-height: 1.62 !important;
+        }
+
+        section[data-testid="stSidebar"] h3 {
+            font-size: 1.28rem !important;
+        }
+
+        section[data-testid="stSidebar"] label p,
+        section[data-testid="stSidebar"] [data-testid="stWidgetLabel"] p {
+            font-size: 1.02rem !important;
+        }
+
+        section[data-testid="stSidebar"] [data-baseweb="select"] *,
+        section[data-testid="stSidebar"] [data-baseweb="tag"] {
+            font-size: 0.98rem !important;
+        }
+
+        [data-testid="stCaptionContainer"] p {
+            font-size: 0.94rem !important;
+            line-height: 1.55 !important;
+        }
+
+        .formula-panel {
+            font-size: 1.08rem !important;
+            line-height: 1.9 !important;
+        }
+
     </style>
     """,
     unsafe_allow_html=True,
